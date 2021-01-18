@@ -1,7 +1,7 @@
 node {
 
 stage('SCM'){
- git 'https://github.com/AlexisAndreu/test_projet_jenkins_sonarqube.git'
+ git 'https://github.com/AlexisAndreu/test_projet_jenkins'
 }
 
 stage('Compile'){
